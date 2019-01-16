@@ -8,3 +8,12 @@ i.material-icons {
   color: rgb(38, 38, 38);
   font-size: 2.2rem;
 }
+
+a {
+  color: #999999;
+  cursor: pointer;
+}
+
+ul li {
+  list-style-type: none;
+}
