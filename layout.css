@@ -37,6 +37,25 @@ nav .logo {
   justify-content: flex-start;
 }
 
+nav .logo .icon {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo .icon::after {
+  display: block;
+  margin: 0 0.8rem;
+  width: 1px;
+  height: 1.8rem;
+  background-color: rgb(38, 38, 38);
+  content: ' ';
+}
+
+nav .logo .text {
+  font-family: 'Lobster', cursive;
+  font-size: 1.8em;
+}
+
 nav .search {
   flex: 0 0 100px;
 }
@@ -44,6 +63,20 @@ nav .search {
 nav .action {
   flex: 1 1 200px;
   justify-content: flex-end;
+}
+
+nav .action a {
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+nav .action a:nth-child(1) {
+  margin-left: auto;
+}
+
+nav .action a i {
+  color: rgb(38, 38, 38);
+  font-size: 2.2rem;
 }
 
 .main {

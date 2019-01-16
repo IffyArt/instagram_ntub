@@ -1,4 +1,10 @@
 body {
   background-color: #fafafa;
-  color: rgb(38, 38, 38)
+  color: rgb(38, 38, 38);
+}
+
+i.material-icons {
+  display: block;
+  color: rgb(38, 38, 38);
+  font-size: 2.2rem;
 }
