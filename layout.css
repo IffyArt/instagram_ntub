@@ -1,0 +1,14 @@
+/* Share layout */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1024px;
+  width: 100%;
+}
+
+/* Share layout end */
