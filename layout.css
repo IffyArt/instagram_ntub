@@ -52,12 +52,30 @@ nav .logo .icon::after {
 }
 
 nav .logo .text {
-  font-family: 'Lobster', cursive;
   font-size: 1.8em;
+  font-family: 'Lobster', cursive;
 }
 
 nav .search {
-  flex: 0 0 100px;
+  position: relative;
+  flex: 0 0 180px;
+}
+
+nav .search input {
+  padding: 0.5rem 0.75rem;
+  padding-right: 1.5rem;
+  width: 100%;
+  outline: none;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+nav .search i {
+  position: absolute;
+  right: 0.5rem;
+  color: #dbdbdb;
+  font-size: 1rem;
+  ;
 }
 
 nav .action {
