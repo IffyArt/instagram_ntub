@@ -170,7 +170,18 @@
   font-size: 0.8em;
 }
 
-.side-box .content .side-list li .time {
+ul.avatar-list {
+  display: flex;
+  flex-direction: column;
+}
+
+ul.avatar-list li {
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+ul.avatar-list li .information .time {
   text-transform: uppercase;
 }
 
