@@ -70,3 +70,34 @@
 }
 
 /* Like-member end */
+
+/* Chat-box */
+
+.chat-box ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box ul li {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.chat-box ul li.header {
+  justify-content: flex-start;
+}
+
+.chat-box ul li .chat-content .name {
+  margin-right: 0.25rem;
+}
+
+.chat-box ul li .action {
+  margin-left: 0.25rem;
+}
+
+.chat-box ul li .action i {
+  font-size: 1.2rem;
+}
+
+/* Chat-box end */
