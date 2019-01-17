@@ -181,12 +181,43 @@ ul.avatar-list {
 
 ul.avatar-list li {
   display: inline-flex;
-  margin-bottom: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
   width: 100%;
 }
 
+ul.avatar-list li .avatar {
+  margin-right: 0.5rem;
+}
+
+ul.avatar-list li .information {
+  flex: auto;
+}
+
+ul.avatar-list li .information .name {
+  display: block;
+  font-size: 0.9em;
+  margin-bottom: 2px;
+}
+
 ul.avatar-list li .information .time {
+  display: block;
+  color: #999999;
   text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+ul.avatar-list li .information .status {
+  display: block;
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+ul.avatar-list li .action a {
+  font-size: 0.9em;
+  color: #3897f0;
+  text-decoration: navajowhite;
 }
 
 /* Avatar-list end  */
