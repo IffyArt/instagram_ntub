@@ -126,30 +126,37 @@ nav .action a i {
   background-color: #FFFFFF;
 }
 
-.post .header {
+.post>.header {
   display: flex;
   align-items: center;
   padding: 0.5rem 0.75rem;
 }
 
-.post .header .information {
+.post>.header .information {
   display: inline-flex;
   flex-direction: column;
   margin-left: 0.75rem;
   color: #262626;
 }
 
-.post .header .information .name {
-  font-size: 0.9em;
+.post>.header .information .name {
   font-weight: bold;
+  font-size: 0.9em;
 }
 
-.post .header .information .location {
+.post>.header .information .location {
   font-size: 0.8em;
 }
 
-.post .media img {
+.post>.media img {
   width: 100%;
+}
+
+.post>.content {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9em;
 }
 
 /* Post layout end */
