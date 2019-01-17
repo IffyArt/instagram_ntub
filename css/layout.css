@@ -202,4 +202,8 @@ nav .action a i {
   background-color: #FFFFFF;
 }
 
+aside>* {
+  margin-bottom: 0.75rem;
+}
+
 /* Suggestions layout end */
