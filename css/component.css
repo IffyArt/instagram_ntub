@@ -39,3 +39,34 @@
 }
 
 /* Action-menu end */
+
+/* Like-member */
+
+.like-member {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+}
+
+.like-member .avatar-list {
+  position: relative;
+  width: 50px;
+  height: 24px;
+}
+
+.like-member .avatar-list li {
+  position: absolute;
+}
+
+.like-member .avatar-list li:nth-child(2) {
+  right: 5px;
+}
+
+.like-member .avatar-list li .avatar {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #ffffff;
+}
+
+/* Like-member end */
