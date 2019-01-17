@@ -100,12 +100,14 @@ nav .action a i {
 .main {
   display: flex;
   flex-direction: row;
-  padding-top: 80px;
+  padding-top: 140px;
 }
 
 .main article {
   display: inline-flex;
   flex: 1 1 auto;
+  flex-direction: column;
+  margin-right: 2rem;
 }
 
 .main aside {
@@ -115,3 +117,39 @@ nav .action a i {
 }
 
 /* Share layout end */
+
+/* Post layout */
+
+.post {
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+}
+
+.post .header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+}
+
+.post .header .information {
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 0.75rem;
+  color: #262626;
+}
+
+.post .header .information .name {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.post .header .information .location {
+  font-size: 0.8em;
+}
+
+.post .media img {
+  width: 100%;
+}
+
+/* Post layout end */
