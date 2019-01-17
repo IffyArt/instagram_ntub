@@ -110,6 +110,10 @@ nav .action a i {
   margin-right: 2rem;
 }
 
+.main article section {
+  margin-bottom: 60px;
+}
+
 .main aside {
   display: inline-flex;
   flex: 0 0 300px;
@@ -189,3 +193,13 @@ nav .action a i {
 }
 
 /* Post layout end */
+
+/* Suggestions layout */
+
+.suggestions {
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+}
+
+/* Suggestions layout end */

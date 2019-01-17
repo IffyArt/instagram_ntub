@@ -114,3 +114,30 @@
 }
 
 /* Chat-box end */
+
+/* Personal */
+
+.personal {
+  display: flex;
+  flex-direction: row;
+}
+
+.personal .avatar {
+  flex: 0 0 48px;
+  height: 48px;
+}
+
+.personal .text {
+  display: inline-flex;
+  margin-left: 0.75rem;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.8em;
+}
+
+.personal .text .name {
+  color: #999999;
+}
+
+/* Personal end */
