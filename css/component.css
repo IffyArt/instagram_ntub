@@ -80,8 +80,13 @@
 
 .chat-box ul li {
   display: inline-flex;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 0.25rem;
+}
+
+.chat-box ul li:nth-last-child(1) {
+  margin-bottom: auto;
 }
 
 .chat-box ul li.header {
@@ -97,7 +102,13 @@
 }
 
 .chat-box ul li .action i {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+
+.chat-box .time {
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  font-size: 0.8em;
 }
 
 /* Chat-box end */
