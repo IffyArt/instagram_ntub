@@ -142,6 +142,21 @@
 
 /* Personal end */
 
+/* Box-list */
+
+ul.box-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+ul.box-list li {
+  flex: 1 0 33%;
+  margin-right: 15px;
+}
+
+/* Box-list end */
+
 /* list-box */
 
 .list-box {

@@ -202,8 +202,23 @@ nav .action a i {
   background-color: #FFFFFF;
 }
 
+.list-box .header span.title {
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.suggestions .header span.all a {
+  color: #3897f0;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+/* Suggestions layout end */
+
+/* Aside layout */
+
 aside>* {
   margin-bottom: 0.75rem;
 }
 
-/* Suggestions layout end */
+/* Aside layout end */
