@@ -222,3 +222,43 @@ aside>* {
 }
 
 /* Aside layout end */
+
+/* Footer layout */
+
+footer {
+  color: #c7c7c7;
+  font-size: 11px;
+}
+
+footer ul.menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+footer ul.menu li {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+footer ul.menu li a {
+  color: #c7c7c7;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+footer ul.menu li::after {
+  content: ' ';
+  background-color: #c7c7c7;
+  margin: 0 5px;
+  height: 2px;
+  width: 2px;
+  display: inline-flex;
+}
+
+footer ul.menu li:nth-last-child(1)::after {
+  display: none;
+}
+
+/* Footer layout end */
