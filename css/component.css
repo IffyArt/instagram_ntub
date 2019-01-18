@@ -145,14 +145,81 @@
 /* Box-list */
 
 ul.box-list {
-  width: 100%;
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 ul.box-list li {
-  flex: 1 0 33%;
-  margin-right: 15px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex: 1 1 33%;
+  flex-direction: column;
+  margin-right: 1.2rem;
+  padding: 1.2rem;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+ul.box-list li:nth-last-child(1) {
+  margin-right: auto;
+}
+
+ul.box-list li .clear {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  cursor: pointer;
+}
+
+ul.box-list li .clear i {
+  color: #999999;
+  font-size: 1.2em;
+}
+
+ul.box-list li .avatar {
+  margin-bottom: 1.5rem;
+}
+
+ul.box-list li .information {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+ul.box-list li .information .name {
+  margin-bottom: 0.1em;
+  text-align: center;
+  font-weight: 500;
+}
+
+ul.box-list li .information .status {
+  color: #999999;
+  font-size: 0.8em;
+}
+
+ul.box-list li .button {
+  display: inline-flex;
+  width: 100%;
+}
+
+ul.box-list li .button button {
+  flex: auto;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #3897f0;
+  color: #FFFFFF;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 300ms ease-in;
+}
+
+ul.box-list li .button button:hover {
+  background-color: #287dcd;
 }
 
 /* Box-list end */
