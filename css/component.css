@@ -49,21 +49,21 @@
   margin-bottom: 0.5rem;
 }
 
-.like-member .avatar-list {
+.like-member .avatar-icon {
   position: relative;
   width: 50px;
   height: 24px;
 }
 
-.like-member .avatar-list li {
+.like-member .avatar-icon li {
   position: absolute;
 }
 
-.like-member .avatar-list li:nth-child(2) {
+.like-member .avatar-icon li:nth-child(2) {
   right: 5px;
 }
 
-.like-member .avatar-list li .avatar {
+.like-member .avatar-icon li .avatar {
   width: 24px;
   height: 24px;
   border: 1px solid #ffffff;
@@ -142,35 +142,35 @@
 
 /* Personal end */
 
-/* Side-box */
+/* list-box */
 
-.side-box {
+.list-box {
   padding: 1rem;
   border: 1px solid #dbdbdb;
   border-radius: 2px;
   background-color: #FFFFFF;
 }
 
-.side-box .header {
+.list-box .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
 
-.side-box .header .title {
+.list-box .header .title {
   color: #999999;
   font-weight: 600px;
   font-size: 0.9em;
 }
 
-.side-box .header .all a {
+.list-box .header .all a {
   color: #000000;
   text-decoration: none;
   font-size: 0.8em;
 }
 
-/* Side-box end */
+/* list-box end */
 
 /* Avatar-list  */
 
@@ -196,8 +196,8 @@ ul.avatar-list li .information {
 
 ul.avatar-list li .information .name {
   display: block;
-  font-size: 0.9em;
   margin-bottom: 2px;
+  font-size: 0.9em;
 }
 
 ul.avatar-list li .information .time {
@@ -215,9 +215,9 @@ ul.avatar-list li .information .status {
 }
 
 ul.avatar-list li .action a {
-  font-size: 0.9em;
   color: #3897f0;
   text-decoration: navajowhite;
+  font-size: 0.9em;
 }
 
 /* Avatar-list end  */
